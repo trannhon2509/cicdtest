@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.user img {
+  border-radius: 50%;
+  max-width: 100px;
+  height: auto;
+}
+
+.user h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.user p {
+  margin: 5px 0;
+}
